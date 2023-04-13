@@ -17,7 +17,7 @@ return $result;
 }
 
 $text = "BINGO";
-$s = 2;
+$s = 4;
 echo "\nText :". $text;
 echo "\nShift:". $s;
 echo "\nCipher:". encrypt($text, $s);
